@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>הפקולטה לטכנולוגיות למידה</title>
+    <meta name="description" content="הפקולטה לטכנולוגיות למידה" />
+    <meta name="keywords" content="טכנולוגיות למידה, טלמ" />
+    <meta name="author" content="ngreen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+       
+        <section id="top">
+            <p class="zofim">הייתם מדריכים בצופים או בנוער העובד?</p>
+            <p class="design">יש לכם עין טובה לעיצוב?</p>
+            <p class="grandma">ההורים תמיד ביקשו מכם ללמד את סבתא איך לשלוח SMS?</p>
+            <p class="notsure">עדיין לא סגורים על מה אתם רוצים ללמוד...?</p>
+            <p class="howabout">מה דעתכם על <h1>תואר ראשון B.A. בטכנולוגיות למידה?</h1></p>
+       
+        <p>
+            <h3>
+                תואר אקדמי ייחודי (והיחיד בארץ שמוצע כתואר ראשון)
+                שיכשיר אתכם להשתלב בכל ארגון ולהובלת תחום הלמידה
+                בעולם הדיגיטלי המודרני
+            </h3>
+        </p>
+         </section>
+       
+        <section id="body">
+            <h2>אז מה לומדים בתואר <strong>טכנולוגיות למידה</strong>?</h2>
+            <p>לחץ על האייקון ליד כל תחום למעבר לעמוד הסבר</p>
+            <div class="icon">
+                 פיתוח הדרכה קלאסי, מתוקשב ועוד
+                <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training"><img id="ID" src="images/ID.png" /></a>
+
+            </div>
+            <div  class="icon">
+                שילוב טכנולוגיות בהדרכה
+                <a href="http://www.hit.ac.il/telem/B.A/curriculum/interaction-dev"><img id="tech" src="images/tech.png" /></a>
+            </div>
+            <div class="icon"> 
+                עיצוב מולטימדיה אינטראקטיבית
+                <a href="http://www.hit.ac.il/telem/B.A/curriculum/user-experience-design"><img id="inter" src="images/inter.png" /></a>
+            </div>
+        </section>
+        
+         <section id="form">
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="pakamausi@gmail.com">
+                
+                <h1>נשמע מעניין?</h1>
+                <p>מלא את פרטייך ונציגינו יצרו עמך קשר!</p>
+                
+                <label for="FirstName">
+                    שם פרטי:
+                    <input type="text" id="FirstName" placeholder="שם פרטי" />
+                </label>
+
+                <label for="LastName">
+                    שם משפחה:
+                    <input type="text" id="LastName" placeholder="שם משפחה" />
+                </label>
+
+                <label for="myTel">
+                    מספר טלפון:
+                    <input type="tel" id="myTel" />
+                </label>
+
+
+                 <label for="myMail">
+                    כתובת דוא"ל:
+                    <input type="email" id="myMail" />
+                </label>
+                <br />
+                <br />
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" checked /> מוכן לקבל דואר פרסומי
+                </label>
+
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+
+            </form>
+        </section>
+    </div>
+</body>
+</html>
